@@ -1,0 +1,13 @@
+
+    <div class="contenedor">
+            <p><b>Usuario: </b></p>
+            <p>{{person.user}}</p>
+    
+            <p><b>Apellido: </b></p>
+            <p>{{person.surname}}</p>
+
+            <button class="boton" routerLink="/editar/{{person.id}}" routerLinkActive="active">Editar</button>
+            <button class="boton" (click)="borrarPerson()">Borrar</button>
+    </div>
+
+

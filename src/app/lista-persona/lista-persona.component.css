@@ -1,0 +1,26 @@
+.contenedor{
+    background-color:rgb(199, 238, 236);
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 2px;
+    width: 150px;
+    border: gray solid 2px;
+    border-radius: 5px;
+}
+
+.contenedores{
+    background:cornsilk;
+    border: grey solid 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton{
+    margin: 5px;
+    /* border: black solid 1px;
+    padding: 2px;
+    background: rgb(221, 254, 255); */
+}
+

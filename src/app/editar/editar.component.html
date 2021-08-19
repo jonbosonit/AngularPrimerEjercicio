@@ -1,0 +1,45 @@
+
+
+<div *ngIf="person">
+    <div class="contenedor">
+    
+        <form id="formulario">
+        
+            <p><b>Usuario</b></p>
+            <input type="text" id="user" value="{{person.user}}">
+
+            <p><b>Apellido</b></p>
+            <input type="text" id="surname" value="{{person.surname}}">
+
+            <p><b>Email de la compañía</b></p>
+            <input type="email" id="company_email" value="{{person.company_email}}">
+
+            <p><b>Email personal</b></p>
+            <input type="email" id="personal_email" value="{{person.personal_email}}">
+
+            <p><b>Ciudad</b></p>
+            <input type="text" id="city" value="{{person.city}}">
+      
+            <p><b>url de la imagen</b></p>
+            <input type="url" id="imagen_url" value="{{person.imagen_url}}">
+      
+            <p><b>Fecha de creación</b></p>
+            <input type="date" id="created_date" value="{{person.created_date}}">
+
+            <p><b>Activado</b></p>
+            <input type="checkbox" id="active" value="{{person.active}}"> 
+
+            <p><b>Fecha de finalizacion</b></p>
+            <input type="date" id="finish_date">
+
+            <br>
+        
+            <div class="botones">
+                <a href="http://localhost:4200/lista_persona" type="submit" class="boton">Actualizar</a>
+                <br>
+                <a href="http://localhost:4200/lista_persona" class="boton" onclick="Limpiar()">Borrar</a>
+            </div>
+        </form>
+        
+    </div>
+</div>

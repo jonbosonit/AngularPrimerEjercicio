@@ -1,0 +1,17 @@
+
+.contenedor{
+    background-color:rgb(199, 238, 236);
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 2px;
+    width: 150px;
+    border: gray solid 2px;
+    border-radius: 5px;
+}
+
+
+.boton{
+    margin: 5px;
+    background-color: rgb(190, 186, 186);
+}
